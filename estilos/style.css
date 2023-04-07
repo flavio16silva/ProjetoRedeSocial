@@ -9,12 +9,20 @@ html, body{
   height: 100vh; /*altura total do navegador*/
   width: 100vw;  /*largura total do navegador*/
   background-color: black;
+ 
+}
+
+body{
+  margin:0; /*tirar a barra de rolagem e a linha preta no final da view*/
+  background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+  background-size: cover; /*para cobrir a tela inteira*/
+  background-attachment: fixed;
 }
 
 main{
   position: relative;
   height: 100vh;
-  background-color: green;
+  
 }
 
 section#telefone{
@@ -22,7 +30,8 @@ section#telefone{
   top:50%; /*top e o left pegam o centro da view como referência ao alinhar a section*/
   left: 50%;
   transform: translate(-50%, -50%); /*para centralizar o bloco no meio da view*/
-  height: 500px;
-  width: 500px;
-  background-color: blue;
+  height: 625px;
+  width: 311px;
+  
+  background: url(../imagens/frame-iphone.png) no-repeat;
 }
