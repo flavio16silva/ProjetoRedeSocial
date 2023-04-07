@@ -32,6 +32,15 @@ section#telefone{
   transform: translate(-50%, -50%); /*para centralizar o bloco no meio da view*/
   height: 625px;
   width: 311px;
-  
   background: url(../imagens/frame-iphone.png) no-repeat;
 }
+
+/*Imagem da interna da tela do celular*/
+iframe#tela{
+  position: relative;
+  top:80px;
+  left: 22px;
+  width: 269px;
+  height: 471px;
+}
+
