@@ -6,10 +6,16 @@
 }
 
 html, body{
-  height: 100vh; /*altura total do navegador*/
-  width: 100vw;  /*largura total do navegador*/
+  height: 100%; /*altura total do navegador - vh para % */
+  width: 100%;  /*largura total do navegador - vw para % */
   background-color: black;
  
+}
+
+/*Escondendo o scroll bar*/
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
 }
 
 body{
